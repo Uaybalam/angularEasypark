@@ -25,7 +25,7 @@ export class ContactoComponent {
   }
 
   navegarinicio() {
-    this.router.navigate(['Home']);
+    this.router.navigate(['']);
   }
 
 }

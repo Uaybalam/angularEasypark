@@ -47,6 +47,6 @@ export class AppComponent {
   }
 
   navegarinicio() {
-    this.router.navigate(['Home']);
+    this.router.navigate(['']);
   }
 }

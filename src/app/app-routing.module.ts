@@ -6,13 +6,13 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { BeneficiosComponent } from './beneficios/beneficios.component';
 
 const routes: Routes = [
-  { path: 'Home', component: PanelComponent},
+  { path: '', component: PanelComponent},
   { path: 'Facturar', component: FacturacionComponent},
   { path: 'Contacto', component: ContactoComponent},
   { path: 'Beneficios', component: BeneficiosComponent},
 
 
-  { path: '**', pathMatch: 'full', redirectTo: 'Home' },
+  { path: '**', pathMatch: 'full', redirectTo: '' },
 ];
 
 @NgModule({

@@ -25,6 +25,6 @@ export class BeneficiosComponent {
   }
 
   navegarinicio() {
-    this.router.navigate(['Home']);
+    this.router.navigate(['']);
   }
 }

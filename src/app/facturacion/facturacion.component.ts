@@ -89,6 +89,6 @@ export class FacturacionComponent {
   }
 
   navegarinicio() {
-    this.router.navigate(['Home']);
+    this.router.navigate(['']);
   }
 }

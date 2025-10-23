@@ -27,7 +27,7 @@ export class PanelComponent {
   }
 
   navegarinicio() {
-    this.router.navigate(['Home']);
+    this.router.navigate(['']);
   }
 
   
