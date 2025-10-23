@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'Beneficios', component: BeneficiosComponent},
 
 
-  { path: '**', pathMatch: 'full', redirectTo: '' },
+  { path: 'Home', pathMatch: 'full', redirectTo: 'full' },
 ];
 
 @NgModule({
